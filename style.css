@@ -1,0 +1,40 @@
+body {
+    background: rgb(0, 219, 255);
+    background: linear-gradient(90deg, rgb(42, 71, 133) 0%, rgb(91, 55, 197) 100%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    font-size: 23px;
+    -webkit-box-shadow: 10px 14px 10px 3px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 10px 14px 10px 3px rgba(0, 0, 0, 1);
+    box-shadow: 10px 14px 10px 3px rgba(0, 0, 0, 1);
+    border-radius: 45px 45px 45px 45px;
+    -moz-border-radius: 45px 45px 45px 45px;
+    -webkit-border-radius: 45px 45px 45px 45px;
+    border: 0px solid #000000;
+    background-color: rgb(106, 28, 196);
+    padding: 1px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(106, 28, 196);
+    line-height: 3;
+    border-radius: 45px 45px 45px 45px;
+    -moz-border-radius: 45px 45px 45px 45px;
+    -webkit-border-radius: 45px 45px 45px 45px;
+    border: 0px solid #000000;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 14px 10px 3px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 10px 14px 10px 3px rgba(0, 0, 0, 1);
+    box-shadow: 10px 14px 10px 3px rgba(0, 0, 0, 1);
+}
